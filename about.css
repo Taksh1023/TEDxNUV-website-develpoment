@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#about-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  width: 20%;
+  margin: 2%;
+}
+
+.team-member-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.team-member-name {
+  margin-top: 1em;
+}
+
+.team-member-position {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+
+.team-member-social-links {
+  margin-top: 1em;
+}
+
+.team-member-social-links a {
+  color: white;
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
